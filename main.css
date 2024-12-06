@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-size: 16px;
+}
+* img {
+  width: 100%;
+}
+* span {
+  font-weight: 700;
+  color: #5f574e;
+}
+
+.line {
+  border: 1px solid #e4ded8;
+}
+
+.container {
+  width: 100vw;
+}
+
+.card-content {
+  padding: 2rem 2rem;
+}
+
+.heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.subheading {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #5f574e;
+  margin-bottom: 2rem;
+}
+
+.preparation-time {
+  background-color: #fff5fa;
+  width: 100%;
+  font-family: "Outfit", serif;
+  padding-bottom: 0.5rem;
+}
+
+.pre-heading {
+  font-size: 1.2rem;
+  color: #7b284f;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.pre-ul {
+  line-height: 1.8rem;
+  padding: 1rem 2.2rem;
+  list-style-position: inside;
+}
+.pre-ul li {
+  color: #5f574e;
+}
+
+.ingredients {
+  width: 100%;
+  font-family: "Outfit", serif;
+  padding-top: 1.5rem;
+}
+.ingredients .ing-heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #854632;
+}
+.ingredients .ing-ul {
+  list-style-position: inside;
+  color: #5f574e;
+  line-height: 1.8rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.instruction {
+  width: 100%;
+  font-family: "Outfit", serif;
+  padding-top: 1.5rem;
+}
+.instruction .ins-heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #854632;
+}
+.instruction .ins-ol {
+  list-style-position: inside;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.instruction .ins-element {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #5f574e;
+  margin-top: 0.5rem;
+}
+
+.nutrition {
+  width: 100%;
+  font-family: "Outfit", serif;
+  font-weight: 400;
+}
+.nutrition .nutri-table {
+  width: 100%;
+  text-align: left;
+}
+.nutrition td, .nutrition th {
+  color: #5f574e;
+  font-weight: 400;
+}
+.nutrition th, .nutrition td {
+  border-bottom: 1px solid #e4ded8;
+  padding-bottom: 0.5rem;
+  line-height: 2rem;
+}
+.nutrition .nutri-heading {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #854632;
+}
+.nutrition .nutri-subheading {
+  color: #5f574e;
+  margin-bottom: 1rem;
+}
+.nutrition .tbl-info {
+  color: #854632;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 100vw;
+  }
+  .card-content {
+    padding: 2rem 2rem;
+  }
+  .heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  .subheading {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #5f574e;
+    margin-bottom: 2rem;
+  }
+  .preparation-time {
+    background-color: #fff5fa;
+    width: 100%;
+    font-family: "Outfit", serif;
+    padding-bottom: 0.5rem;
+  }
+  .pre-heading {
+    font-size: 1.2rem;
+    color: #7b284f;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .pre-ul {
+    line-height: 1.8rem;
+    padding: 1rem 2.2rem;
+    list-style-position: inside;
+  }
+  .pre-ul li {
+    color: #5f574e;
+  }
+  .ingredients {
+    width: 100%;
+    font-family: "Outfit", serif;
+    padding-top: 1.5rem;
+  }
+  .ingredients .ing-heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #854632;
+  }
+  .ingredients .ing-ul {
+    list-style-position: inside;
+    color: #5f574e;
+    line-height: 1.8rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .instruction {
+    width: 100%;
+    font-family: "Outfit", serif;
+    padding-top: 1.5rem;
+  }
+  .instruction .ins-heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #854632;
+  }
+  .instruction .ins-ol {
+    list-style-position: inside;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .instruction .ins-element {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #5f574e;
+    margin-top: 0.5rem;
+  }
+  .nutrition {
+    width: 100%;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+  }
+  .nutrition .nutri-table {
+    width: 100%;
+    text-align: left;
+  }
+  .nutrition td, .nutrition th {
+    color: #5f574e;
+    font-weight: 400;
+  }
+  .nutrition th, .nutrition td {
+    border-bottom: 1px solid #e4ded8;
+    padding-bottom: 0.5rem;
+    line-height: 2rem;
+  }
+  .nutrition .nutri-heading {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #854632;
+  }
+  .nutrition .nutri-subheading {
+    color: #5f574e;
+    margin-bottom: 1rem;
+  }
+  .nutrition .tbl-info {
+    color: #854632;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100% vh;
+    background-color: #f3e6d8;
+    border: 1px solid #000;
+  }
+  .card {
+    max-width: 600px;
+    margin: 5rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  .card .omelette-img {
+    border-radius: 0.5rem;
+  }
+  .card .card-content {
+    padding: 0;
+  }
+  .heading {
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #302d2c;
+    margin-top: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .subheading {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+  }
+  .nutri-subheading {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

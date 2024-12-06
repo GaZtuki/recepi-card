@@ -1,0 +1,410 @@
+// Fonts
+$young-serif: "Young Serif", serif;
+$outfit: "Outfit", serif;
+
+// Font-Weight
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+// Color
+$white: #ffffff;
+$stone-100: #f3e6d8;
+$stone-150: #e4ded8;
+$stone-600: #5f574e;
+$stone-900: #302d2c;
+$brown-800: #854632;
+$rose-800: #7b284f;
+$rose-50: #fff5fa;
+
+// Break-Points
+$mobile: 320px;
+$desktop: 768px;
+
+// Sizing
+$xs: 0.5rem;
+$xs-m: 0.8rem;
+$sm: 1rem;
+$sm-s: 1.25rem;
+$sm-m: 1.5rem;
+$sm-l: 1.75rem;
+$md: 2rem;
+$md-s: 2.25rem;
+$md-m: 2.5rem;
+$md-l: 2.75rem;
+$lg: 3rem;
+$lg-m: 3.5rem;
+$xl: 4rem;
+$xl-m: 4.5rem;
+$xxl: 5rem;
+$xxl-m: 6rem;
+
+
+// .young-serif-regular {
+//   font-family: "Young Serif", serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-size: 16px;
+
+
+  }
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    font-weight: $bold;
+    color: $stone-600;
+  }
+
+}
+
+.line {
+  border: 1px solid $stone-150;
+}
+
+.container {
+  width: 100vw;
+}
+
+.card-content {
+  padding: $md $md;
+}
+
+.heading{
+  font-family: $young-serif;
+  font-weight: $regular;
+  font-size: $md;
+  line-height: $md;
+  // margin-bottom: $md;
+}
+
+.subheading {
+  font-family: $outfit;
+  font-weight: $regular;
+  line-height: $sm-m;
+  color: $stone-600;
+  margin-bottom: $md;
+}
+
+.preparation-time {
+  background-color: $rose-50;
+  width: 100%;
+  font-family: $outfit;
+  padding-bottom: $xs;
+}
+
+.pre-heading {
+  font-size: 1.2rem;
+  color: $rose-800;
+  padding-left: $sm-m;
+  padding-top: $sm-m;
+}
+
+.pre-ul {
+  line-height: 1.8rem;
+  padding: $sm 2.2rem;
+  list-style-position: inside;
+
+  li{
+    color: $stone-600;
+  }
+}
+
+.ingredients {
+  width: 100%;
+  font-family: $outfit;
+  padding-top: $sm-m;
+
+  .ing-heading {
+    font-family: $young-serif;
+    font-weight: $regular;
+    font-size: 1.8rem;
+    color: $brown-800;
+  }
+
+  .ing-ul{
+    list-style-position: inside;
+    color: $stone-600;
+    line-height: 1.8rem;
+    padding: $sm $sm;
+    margin-bottom: $sm;
+  }
+}
+
+.instruction{
+  width: 100%;
+  font-family: $outfit;
+  padding-top: $sm-m;
+
+  .ins-heading {
+    font-family: $young-serif;
+    font-weight: $regular;
+    font-size: 1.8rem;
+    color: $brown-800;
+  }
+
+  .ins-ol{
+    list-style-position: inside;
+    padding: $sm;
+    margin-bottom: $sm;
+  }
+
+  .ins-element{
+    font-size: 1rem;
+    line-height: $sm-m;
+    font-weight: $regular;
+    color: $stone-600;
+    margin-top: $xs;
+  }
+
+}
+
+
+.nutrition {
+  width: 100%;
+  font-family: $outfit;
+  font-weight: $regular;
+
+  .nutri-table{
+    width: 100%;
+    text-align: left;
+
+    .tbl-heading{
+
+    }
+  }
+
+  td,th{
+    color: $stone-600;
+    font-weight: $regular;
+  }
+
+  th, td {
+    border-bottom: 1px solid $stone-150;
+    padding-bottom: $xs;
+    line-height: $md;
+  }
+
+  .nutri-heading {
+    margin-top: $sm-m;
+    margin-bottom: $sm-m;
+    font-family: $young-serif;
+    font-weight: $regular;
+    font-size: 1.8rem;
+    color: $brown-800;
+  }
+
+  .nutri-subheading{
+    color: $stone-600;
+    margin-bottom: $sm;
+  }
+
+  .tbl-info{
+    color: $brown-800;
+  }
+
+}
+
+@media (min-width: $mobile){
+
+  .container {
+    width: 100vw;
+  }
+
+  .card-content {
+    padding: $md $md;
+  }
+
+  .heading{
+    font-family: $young-serif;
+    font-weight: $regular;
+    font-size: $md;
+    line-height: $md;
+    margin-bottom: $md;
+  }
+
+  .subheading {
+    font-family: $outfit;
+    font-weight: $regular;
+    line-height: $sm-m;
+    color: $stone-600;
+    margin-bottom: $md;
+  }
+
+  .preparation-time {
+    background-color: $rose-50;
+    width: 100%;
+    font-family: $outfit;
+    padding-bottom: $xs;
+  }
+
+  .pre-heading {
+    font-size: 1.2rem;
+    color: $rose-800;
+    padding-left: $sm-m;
+    padding-top: $sm-m;
+  }
+
+  .pre-ul {
+    line-height: 1.8rem;
+    padding: $sm 2.2rem;
+    list-style-position: inside;
+
+    li{
+      color: $stone-600;
+    }
+  }
+
+  .ingredients {
+    width: 100%;
+    font-family: $outfit;
+    padding-top: $sm-m;
+
+    .ing-heading {
+      font-family: $young-serif;
+      font-weight: $regular;
+      font-size: 1.8rem;
+      color: $brown-800;
+    }
+
+    .ing-ul{
+      list-style-position: inside;
+      color: $stone-600;
+      line-height: 1.8rem;
+      padding: $sm $sm;
+      margin-bottom: $sm;
+    }
+
+
+  }
+
+  .instruction{
+    width: 100%;
+    font-family: $outfit;
+    padding-top: $sm-m;
+
+    .ins-heading {
+      font-family: $young-serif;
+      font-weight: $regular;
+      font-size: 1.8rem;
+      color: $brown-800;
+    }
+
+    .ins-ol{
+      list-style-position: inside;
+      padding: $sm;
+      margin-bottom: $sm;
+    }
+
+    .ins-element{
+      font-size: 1rem;
+      line-height: $sm-m;
+      font-weight: $regular;
+      color: $stone-600;
+      margin-top: $xs;
+    }
+
+  }
+
+  .nutrition {
+    width: 100%;
+    font-family: $outfit;
+    font-weight: $regular;
+
+    .nutri-table{
+      width: 100%;
+      text-align: left;
+
+      .tbl-heading{
+
+      }
+    }
+
+    td,th{
+      color: $stone-600;
+      font-weight: $regular;
+    }
+
+    th, td {
+      border-bottom: 1px solid $stone-150;
+      padding-bottom: $xs;
+      line-height: $md;
+    }
+
+    .nutri-heading {
+      margin-top: $sm-m;
+      margin-bottom: $sm-m;
+      font-family: $young-serif;
+      font-weight: $regular;
+      font-size: 1.8rem;
+      color: $brown-800;
+    }
+
+    .nutri-subheading{
+      color: $stone-600;
+      margin-bottom: $sm;
+    }
+
+    .tbl-info{
+      color: $brown-800;
+    }
+
+  }
+}
+
+@media (min-width: $desktop){
+
+  .container {
+    width: 100vw;
+    height: 100%vh;
+    background-color: $stone-100;
+    border: 1px solid #000;
+  }
+
+  .card {
+    max-width: 600px;
+    margin: $xxl auto;
+    background-color: $white;
+    padding: $md;
+    border-radius: $sm;
+
+   .omelette-img{
+     border-radius: $xs;
+   }
+
+   .card-content {
+     padding: 0;
+   }
+
+  }
+
+  .heading{
+    font-family: $young-serif;
+    font-size: $md;
+    font-weight: $regular;
+    color: $stone-900;
+    margin-top: $sm-l;
+    margin-bottom: $sm-s;
+  }
+
+  .subheading {
+    font-size: $xs-m;
+    line-height: $sm-s;
+  }
+
+  .nutri-subheading{
+    font-size: .9rem;
+  }
+
+}
